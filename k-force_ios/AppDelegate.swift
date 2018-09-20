@@ -8,18 +8,92 @@
 
 import UIKit
 import CoreData
+import GoogleMaps
+import GooglePlaces
+import GoogleSignIn
+
+import FBSDKCoreKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+    
+    
+ 
 
+    
     var window: UIWindow?
 
-
+    let googleApiKey = "AIzaSyD0oLa0iw5E36eYNSXFgspNLZA_Pn3s9b8"
+    let googleClientId = "754248851502-82ebv6gbipo26g6mid37dhjt16d8ge46.apps.googleusercontent.com"
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // 初始化googleMap的 api_key
+        GMSServices.provideAPIKey(googleApiKey)
+        
+        // 取得裝置目前位置的 place api_key
+        GMSPlacesClient.provideAPIKey(googleApiKey)
+        
+        initGoogleSignInClient()
+        
+        
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        
         return true
     }
 
+    
+  
+    
+    func initGoogleSignInClient(){
+        
+        GIDSignIn.sharedInstance().clientID = googleClientId
+        GIDSignIn.sharedInstance().delegate = self
+    }
+
+    
+    /*
+     * 按下登入案件後導向..
+     */
+
+    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any])
+    -> Bool {
+        return GIDSignIn.sharedInstance().handle(url,
+            sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
+            annotation: [:])
+    }
+    
+    /*
+     * Google登入的結果
+     */
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+
+        
+        
+        if let error = error {
+            print("error : \(error)")
+        } else {
+            //            let userId = user.userID
+            print("user : \(user.profile.name!)")
+        }
+        
+        
+    }
+  
+    /*
+     * for fb signin
+     */
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        return FBSDKApplicationDelegate.sharedInstance().application(application, open : url , sourceApplication : sourceApplication , annotation : annotation)
+    }
+    
+    
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
@@ -36,6 +110,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+         FBSDKAppEvents.activateApp()
     }
 
     func applicationWillTerminate(_ application: UIApplication) {

@@ -7,23 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523570AF209C5BD6000019B0 /* CouponController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523570AE209C5BD6000019B0 /* CouponController.swift */; };
+		523570B3209C5D34000019B0 /* CouponCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523570B2209C5D34000019B0 /* CouponCell.swift */; };
+		523833DE20A5319800A3ACA5 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523833DD20A5319800A3ACA5 /* UIView+Shadow.swift */; };
+		523E63E52089AC89009174D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523E63E42089AC89009174D6 /* Assets.xcassets */; };
+		523E63E92089C838009174D6 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E63E82089C838009174D6 /* SignInController.swift */; };
+		523E63EB2089DF59009174D6 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E63EA2089DF59009174D6 /* LocationController.swift */; };
+		523E63ED2089E173009174D6 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E63EC2089E173009174D6 /* SignUpController.swift */; };
+		525B4FA4209AFBD9000A7766 /* ChargeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B4FA3209AFBD9000A7766 /* ChargeController.swift */; };
+		525B4FA8209AFBFC000A7766 /* MemberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B4FA7209AFBFC000A7766 /* MemberController.swift */; };
+		526B23E120A0037E00733689 /* UIImageView+Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B23E020A0037E00733689 /* UIImageView+Round.swift */; };
+		526B23E320A046B200733689 /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B23E220A046B200733689 /* GlobalVariable.swift */; };
+		5270305620A92B510010186B /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270305520A92B510010186B /* MenuBar.swift */; };
+		52918CEF20A584A200235722 /* UIViewController+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918CEE20A584A100235722 /* UIViewController+HideKeyboard.swift */; };
+		52918CF120A58DCF00235722 /* UITextField+BorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52918CF020A58DCF00235722 /* UITextField+BorderStyle.swift */; };
+		52A506222090580100CEE565 /* MapViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A506212090580100CEE565 /* MapViewCell.swift */; };
 		52ADE257208890950047E820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ADE256208890950047E820 /* AppDelegate.swift */; };
-		52ADE259208890950047E820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ADE258208890950047E820 /* ViewController.swift */; };
+		52ADE259208890950047E820 /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ADE258208890950047E820 /* LogoViewController.swift */; };
 		52ADE25C208890950047E820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ADE25A208890950047E820 /* Main.storyboard */; };
 		52ADE25F208890950047E820 /* k_force_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52ADE25D208890950047E820 /* k_force_ios.xcdatamodeld */; };
-		52ADE261208890960047E820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ADE260208890960047E820 /* Assets.xcassets */; };
 		52ADE264208890960047E820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ADE262208890960047E820 /* LaunchScreen.storyboard */; };
+		52ADE2712088A2A40047E820 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ADE2702088A2A40047E820 /* UIColor+Ext.swift */; };
+		52B31B352091750E007412FB /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B31B342091750E007412FB /* LocationCell.swift */; };
+		52BFCB4220A19FB30050E309 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BFCB4120A19FB30050E309 /* NotificationController.swift */; };
+		52BFCB4420A19FC70050E309 /* FavoriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BFCB4320A19FC70050E309 /* FavoriteController.swift */; };
+		52BFCB4820A19FF40050E309 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BFCB4720A19FF40050E309 /* SettingController.swift */; };
+		52BFCB4A20A1A0000050E309 /* TermController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BFCB4920A1A0000050E309 /* TermController.swift */; };
+		52BFCB4D20A1A33A0050E309 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BFCB4B20A1A33A0050E309 /* NotificationCell.swift */; };
+		52DF6020209BF305001E456A /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF601F209BF305001E456A /* UIImage+Gif.swift */; };
+		52DF6022209BF423001E456A /* battery_charging.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52DF6021209BF423001E456A /* battery_charging.gif */; };
+		95FF1DD06287E8AAF15BFF9E /* Pods_k_force_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AB28F472B73189A6D5ED86 /* Pods_k_force_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A770D72BC81A80855898AE1 /* Pods-k-force_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-k-force_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-k-force_ios/Pods-k-force_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		16AB28F472B73189A6D5ED86 /* Pods_k_force_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_k_force_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		523570AE209C5BD6000019B0 /* CouponController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponController.swift; sourceTree = "<group>"; };
+		523570B2209C5D34000019B0 /* CouponCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponCell.swift; sourceTree = "<group>"; };
+		523833DD20A5319800A3ACA5 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		523E63E42089AC89009174D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../FoodPinWebView/FoodPin/Assets.xcassets; sourceTree = "<group>"; };
+		523E63E82089C838009174D6 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		523E63EA2089DF59009174D6 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		523E63EC2089E173009174D6 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		525B4FA3209AFBD9000A7766 /* ChargeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeController.swift; sourceTree = "<group>"; };
+		525B4FA7209AFBFC000A7766 /* MemberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberController.swift; sourceTree = "<group>"; };
+		526B23E020A0037E00733689 /* UIImageView+Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Round.swift"; sourceTree = "<group>"; };
+		526B23E220A046B200733689 /* GlobalVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		5270305520A92B510010186B /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		52918CEE20A584A100235722 /* UIViewController+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+HideKeyboard.swift"; sourceTree = "<group>"; };
+		52918CF020A58DCF00235722 /* UITextField+BorderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+BorderStyle.swift"; sourceTree = "<group>"; };
+		52A506212090580100CEE565 /* MapViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCell.swift; sourceTree = "<group>"; };
 		52ADE253208890950047E820 /* k-force_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "k-force_ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ADE256208890950047E820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52ADE258208890950047E820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52ADE258208890950047E820 /* LogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
 		52ADE25B208890950047E820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52ADE25E208890950047E820 /* k_force_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = k_force_ios.xcdatamodel; sourceTree = "<group>"; };
-		52ADE260208890960047E820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52ADE263208890960047E820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52ADE265208890960047E820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ADE2702088A2A40047E820 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		52B31B342091750E007412FB /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		52BFCB4120A19FB30050E309 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		52BFCB4320A19FC70050E309 /* FavoriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteController.swift; sourceTree = "<group>"; };
+		52BFCB4720A19FF40050E309 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		52BFCB4920A1A0000050E309 /* TermController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermController.swift; sourceTree = "<group>"; };
+		52BFCB4B20A1A33A0050E309 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		52DF601F209BF305001E456A /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		52DF6021209BF423001E456A /* battery_charging.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = battery_charging.gif; sourceTree = "<group>"; };
+		C779F658E5813D8B10822B2C /* Pods-k-force_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-k-force_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-k-force_ios/Pods-k-force_ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FF1DD06287E8AAF15BFF9E /* Pods_k_force_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F6FAEC5D058D3EAEB28283B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16AB28F472B73189A6D5ED86 /* Pods_k_force_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5270305420A92B350010186B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5270305520A92B510010186B /* MenuBar.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		52A5061E2090571000CEE565 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				52A506212090580100CEE565 /* MapViewCell.swift */,
+				52B31B342091750E007412FB /* LocationCell.swift */,
+				523570B2209C5D34000019B0 /* CouponCell.swift */,
+				52BFCB4B20A1A33A0050E309 /* NotificationCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		52ADE24A208890950047E820 = {
 			isa = PBXGroup;
 			children = (
 				52ADE255208890950047E820 /* k-force_ios */,
 				52ADE254208890950047E820 /* Products */,
+				89DD5F8F7B21B6846E7CD368 /* Pods */,
+				2F6FAEC5D058D3EAEB28283B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +136,76 @@
 		52ADE255208890950047E820 /* k-force_ios */ = {
 			isa = PBXGroup;
 			children = (
+				5270305420A92B350010186B /* Entity */,
+				52DF6021209BF423001E456A /* battery_charging.gif */,
+				52A5061E2090571000CEE565 /* Cell */,
+				523E63E42089AC89009174D6 /* Assets.xcassets */,
+				52ADE2732088A4180047E820 /* Storyboard */,
+				52ADE2722088A3F90047E820 /* Controller */,
+				52ADE26B208896B70047E820 /* Extension */,
 				52ADE256208890950047E820 /* AppDelegate.swift */,
-				52ADE258208890950047E820 /* ViewController.swift */,
-				52ADE25A208890950047E820 /* Main.storyboard */,
-				52ADE260208890960047E820 /* Assets.xcassets */,
-				52ADE262208890960047E820 /* LaunchScreen.storyboard */,
 				52ADE265208890960047E820 /* Info.plist */,
 				52ADE25D208890950047E820 /* k_force_ios.xcdatamodeld */,
+				526B23E220A046B200733689 /* GlobalVariable.swift */,
 			);
 			path = "k-force_ios";
+			sourceTree = "<group>";
+		};
+		52ADE26B208896B70047E820 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52ADE2702088A2A40047E820 /* UIColor+Ext.swift */,
+				52DF601F209BF305001E456A /* UIImage+Gif.swift */,
+				526B23E020A0037E00733689 /* UIImageView+Round.swift */,
+				523833DD20A5319800A3ACA5 /* UIView+Shadow.swift */,
+				52918CEE20A584A100235722 /* UIViewController+HideKeyboard.swift */,
+				52918CF020A58DCF00235722 /* UITextField+BorderStyle.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		52ADE2722088A3F90047E820 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52BFCB4020A19F870050E309 /* MemberGroup */,
+				52ADE258208890950047E820 /* LogoViewController.swift */,
+				523E63E82089C838009174D6 /* SignInController.swift */,
+				523E63EA2089DF59009174D6 /* LocationController.swift */,
+				523E63EC2089E173009174D6 /* SignUpController.swift */,
+				525B4FA3209AFBD9000A7766 /* ChargeController.swift */,
+				525B4FA7209AFBFC000A7766 /* MemberController.swift */,
+				523570AE209C5BD6000019B0 /* CouponController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52ADE2732088A4180047E820 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				52ADE25A208890950047E820 /* Main.storyboard */,
+				52ADE262208890960047E820 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		52BFCB4020A19F870050E309 /* MemberGroup */ = {
+			isa = PBXGroup;
+			children = (
+				52BFCB4120A19FB30050E309 /* NotificationController.swift */,
+				52BFCB4320A19FC70050E309 /* FavoriteController.swift */,
+				52BFCB4720A19FF40050E309 /* SettingController.swift */,
+				52BFCB4920A1A0000050E309 /* TermController.swift */,
+			);
+			path = MemberGroup;
+			sourceTree = "<group>";
+		};
+		89DD5F8F7B21B6846E7CD368 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A770D72BC81A80855898AE1 /* Pods-k-force_ios.debug.xcconfig */,
+				C779F658E5813D8B10822B2C /* Pods-k-force_ios.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52ADE268208890960047E820 /* Build configuration list for PBXNativeTarget "k-force_ios" */;
 			buildPhases = (
+				4CB8BCCAB1B4F0660EE2BC2C /* [CP] Check Pods Manifest.lock */,
 				52ADE24F208890950047E820 /* Sources */,
 				52ADE250208890950047E820 /* Frameworks */,
 				52ADE251208890950047E820 /* Resources */,
+				900A5AA786057317BE62D781 /* [CP] Copy Pods Resources */,
+				26BE2E47330A98597B864730 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +270,124 @@
 			buildActionMask = 2147483647;
 			files = (
 				52ADE264208890960047E820 /* LaunchScreen.storyboard in Resources */,
-				52ADE261208890960047E820 /* Assets.xcassets in Resources */,
+				52DF6022209BF423001E456A /* battery_charging.gif in Resources */,
+				523E63E52089AC89009174D6 /* Assets.xcassets in Resources */,
 				52ADE25C208890950047E820 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26BE2E47330A98597B864730 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-k-force_ios/Pods-k-force_ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-k-force_ios/Pods-k-force_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB8BCCAB1B4F0660EE2BC2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-k-force_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		900A5AA786057317BE62D781 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-k-force_ios/Pods-k-force_ios-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-k-force_ios/Pods-k-force_ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52ADE24F208890950047E820 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52ADE259208890950047E820 /* ViewController.swift in Sources */,
+				526B23E120A0037E00733689 /* UIImageView+Round.swift in Sources */,
+				52918CF120A58DCF00235722 /* UITextField+BorderStyle.swift in Sources */,
+				52ADE259208890950047E820 /* LogoViewController.swift in Sources */,
+				52ADE2712088A2A40047E820 /* UIColor+Ext.swift in Sources */,
+				5270305620A92B510010186B /* MenuBar.swift in Sources */,
+				52BFCB4A20A1A0000050E309 /* TermController.swift in Sources */,
+				523833DE20A5319800A3ACA5 /* UIView+Shadow.swift in Sources */,
+				523E63ED2089E173009174D6 /* SignUpController.swift in Sources */,
+				52918CEF20A584A200235722 /* UIViewController+HideKeyboard.swift in Sources */,
 				52ADE257208890950047E820 /* AppDelegate.swift in Sources */,
+				52DF6020209BF305001E456A /* UIImage+Gif.swift in Sources */,
+				526B23E320A046B200733689 /* GlobalVariable.swift in Sources */,
+				52BFCB4820A19FF40050E309 /* SettingController.swift in Sources */,
+				523E63E92089C838009174D6 /* SignInController.swift in Sources */,
+				525B4FA4209AFBD9000A7766 /* ChargeController.swift in Sources */,
+				523570AF209C5BD6000019B0 /* CouponController.swift in Sources */,
+				52A506222090580100CEE565 /* MapViewCell.swift in Sources */,
+				52BFCB4D20A1A33A0050E309 /* NotificationCell.swift in Sources */,
+				52B31B352091750E007412FB /* LocationCell.swift in Sources */,
+				52BFCB4220A19FB30050E309 /* NotificationController.swift in Sources */,
+				52BFCB4420A19FC70050E309 /* FavoriteController.swift in Sources */,
+				523E63EB2089DF59009174D6 /* LocationController.swift in Sources */,
+				523570B3209C5D34000019B0 /* CouponCell.swift in Sources */,
+				525B4FA8209AFBFC000A7766 /* MemberController.swift in Sources */,
 				52ADE25F208890950047E820 /* k_force_ios.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,10 +530,11 @@
 		};
 		52ADE269208890960047E820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A770D72BC81A80855898AE1 /* Pods-k-force_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CM9MN3P528;
+				DEVELOPMENT_TEAM = LRDKP99ZLN;
 				INFOPLIST_FILE = "k-force_ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,10 +549,11 @@
 		};
 		52ADE26A208890960047E820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C779F658E5813D8B10822B2C /* Pods-k-force_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CM9MN3P528;
+				DEVELOPMENT_TEAM = LRDKP99ZLN;
 				INFOPLIST_FILE = "k-force_ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

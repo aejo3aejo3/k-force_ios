@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MemberDao" representedClassName="MemberDao" syncable="YES" codeGenerationType="class">
+        <attribute name="accessToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="authType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="backMail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f_mail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="g_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="g_mail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="g_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="g_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberId" attributeType="Float" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nickName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="refreshToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userMail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPic" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="userPw" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MemberDao" positionX="-63" positionY="-18" width="128" height="300"/>
+    </elements>
 </model>
