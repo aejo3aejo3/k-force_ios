@@ -15,6 +15,7 @@ class FavoriteController: UIViewController {
     
     let menuBar : MenuBar = {
         let mb = MenuBar()
+        // 測試切換 branch merge
         return mb
     }()
     override func viewDidLoad() {
